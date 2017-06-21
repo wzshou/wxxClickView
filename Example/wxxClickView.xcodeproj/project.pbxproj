@@ -24,6 +24,10 @@
 		7BDA138B962AEA9EFA4F2A06 /* Pods_wxxClickView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDC3B11348091845FE94E9 /* Pods_wxxClickView_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B493B8B13AF192ABA44A1016 /* Pods_wxxClickView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C851E06A8C8846DC7FD93A /* Pods_wxxClickView_Tests.framework */; };
+		EDF5AB031EFA4CBF000C0CFF /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF5AAFE1EFA4CBF000C0CFF /* testTableViewCell.m */; };
+		EDF5AB041EFA4CBF000C0CFF /* testTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF5AAFF1EFA4CBF000C0CFF /* testTableViewCell.xib */; };
+		EDF5AB051EFA4CBF000C0CFF /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF5AB011EFA4CBF000C0CFF /* testView.m */; };
+		EDF5AB061EFA4CBF000C0CFF /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF5AB021EFA4CBF000C0CFF /* testView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		51AC3EE091A5BEB608482575 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5A39265827C1AC18D3DDA3A6 /* wxxClickView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = wxxClickView.podspec; path = ../wxxClickView.podspec; sourceTree = "<group>"; };
+		51AC3EE091A5BEB608482575 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5A39265827C1AC18D3DDA3A6 /* wxxClickView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = wxxClickView.podspec; path = ../wxxClickView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* wxxClickView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wxxClickView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +63,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		731528791319D4E0AAFE5AC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		731528791319D4E0AAFE5AC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0C851E06A8C8846DC7FD93A /* Pods_wxxClickView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wxxClickView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DDC3B11348091845FE94E9 /* Pods_wxxClickView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wxxClickView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72463203D8782B44701C90C /* Pods-wxxClickView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxClickView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-wxxClickView_Example/Pods-wxxClickView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC38C72EEE2AECAC5823CF01 /* Pods-wxxClickView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxClickView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wxxClickView_Example/Pods-wxxClickView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF5AAFD1EFA4CBF000C0CFF /* testTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTableViewCell.h; sourceTree = "<group>"; };
+		EDF5AAFE1EFA4CBF000C0CFF /* testTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
+		EDF5AAFF1EFA4CBF000C0CFF /* testTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testTableViewCell.xib; sourceTree = "<group>"; };
+		EDF5AB001EFA4CBF000C0CFF /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		EDF5AB011EFA4CBF000C0CFF /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
+		EDF5AB021EFA4CBF000C0CFF /* testView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
 		F5E2590D036466ED494F1107 /* Pods-wxxClickView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxClickView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wxxClickView_Tests/Pods-wxxClickView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F74EA5A59C7E479B47E36E04 /* Pods-wxxClickView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxClickView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wxxClickView_Tests/Pods-wxxClickView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +142,7 @@
 		6003F593195388D20070C39A /* Example for wxxClickView */ = {
 			isa = PBXGroup;
 			children = (
+				EDF5AAFC1EFA4CAD000C0CFF /* testView */,
 				6003F59C195388D20070C39A /* wxxAppDelegate.h */,
 				6003F59D195388D20070C39A /* wxxAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +205,19 @@
 				F74EA5A59C7E479B47E36E04 /* Pods-wxxClickView_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF5AAFC1EFA4CAD000C0CFF /* testView */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5AAFD1EFA4CBF000C0CFF /* testTableViewCell.h */,
+				EDF5AAFE1EFA4CBF000C0CFF /* testTableViewCell.m */,
+				EDF5AAFF1EFA4CBF000C0CFF /* testTableViewCell.xib */,
+				EDF5AB001EFA4CBF000C0CFF /* testView.h */,
+				EDF5AB011EFA4CBF000C0CFF /* testView.m */,
+				EDF5AB021EFA4CBF000C0CFF /* testView.xib */,
+			);
+			name = testView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +303,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF5AB041EFA4CBF000C0CFF /* testTableViewCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				EDF5AB061EFA4CBF000C0CFF /* testView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +421,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* wxxAppDelegate.m in Sources */,
+				EDF5AB031EFA4CBF000C0CFF /* testTableViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* wxxViewController.m in Sources */,
+				EDF5AB051EFA4CBF000C0CFF /* testView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
