@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'wxxClickView_Example' do
+  pod 'wxxClickView', :path => '../'
+
+  target 'wxxClickView_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
